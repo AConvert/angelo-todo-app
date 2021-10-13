@@ -1,0 +1,13 @@
+.todo {
+    display: flex;
+    flex-direction: column;
+    flex: 0.6;
+    overflow: scroll;
+    overflow-y: hidden; 
+    overflow-x: hidden; 
+    margin-left: 20px;
+    margin-right: 20px;
+    height: fit-content;
+    position: relative;
+}
+

@@ -1,0 +1,42 @@
+.todoEdit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.edit__todoInput {
+    background: rgba( 255, 255, 255, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    font-size: 24px;
+    font-weight: 700;
+    height: fit-content;
+    padding: 6px;
+    max-width: 200px;
+    outline: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.edit__todoInput:focus {
+    outline: none;
+}
+
+.edit__todoBtn {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 6px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: rgba( 255, 255, 255, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}

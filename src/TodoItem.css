@@ -1,0 +1,64 @@
+.todolist {
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 12px;
+    position: relative;
+    color: lightgray;
+}
+
+.todolist:hover {
+    background: rgba( 29, 173, 254, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 62, 152, 199, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.todolist__content {
+    flex-grow: 1;
+    font-weight: 600;
+    font-size: 24px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.todolist__content--active {
+    flex-grow: 1;
+    color: greenyellow !important;
+    text-decoration: line-through !important;
+}
+
+.todolist  .MuiSvgIcon-root {
+    color: white !important;
+    font-size: 30px !important;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.todolist  .MuiCheckbox-root {
+    color: white !important;
+}
+
+.todolist__delete:hover {
+    background-color:rgba(255, 0, 8, 0.6);
+    color: white !important;
+    border-radius: 50%;
+}
+
+.todolist__edit:hover {
+    background-color: rgba(0, 132, 255, 0.6);
+    color: white !important;
+    border-radius: 50%;
+}
+
+
+
